@@ -1,0 +1,594 @@
+/*Remove the whitespace on the right side;*/
+html,body
+{
+    /* width: 100%;
+    height: 100%; */
+    margin: 0px;
+    padding: 0px;
+    overflow-x: hidden;
+}
+
+.colorPal {
+  background-color: #063758;
+  background-color: #63b6e8;
+  background-color: #ffffff;
+}
+
+h1, h2 {
+  padding-bottom: 1%;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h2:hover {
+  color: #4e707f;
+}
+
+.colored-text1 {
+  color: #063758;
+}
+
+.colored-text2 {
+  /* color: #f3f6f8; */
+  color: #ffffff;
+}
+
+h5,h6 {
+  margin-bottom: 0;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+}
+
+h4 {
+  font-weight: 500;
+}
+
+body {
+  text-align: center;
+}
+
+p {
+    line-height: 1.5;
+}
+
+span p {
+    line-height: 1;
+}
+
+ul {
+ list-style-type: none; /*For no bullets*/
+ padding-left: 0;
+}
+
+/*Sections*/
+
+.white-section {
+  background-color: #ffffff;
+}
+
+/*Headings*/
+.section-heading {
+  font-size: 3rem;
+  line-height: 1.5;
+}
+
+/* Welcome Section */
+#welcome {
+  background-color: #063758;
+  /* background-image: 'images/evergreen.png'; */
+}
+
+.container-fluid-nav {
+  padding-top: 1%;
+  padding-bottom: 1%;
+  padding-left: 12%;
+  padding-right: 7.5%;
+}
+
+.container-fluid {
+  padding: 1% 8%;
+}
+
+.navbar {
+  /*padding-bottom: 0.5rem;*/
+  background-color: #063758;
+}
+
+.navbar-brand {
+  font-size: 2.5rem;
+  font-weight: bold;
+  font-family: 'Ubuntu';
+  padding-left: 0;
+  color: #ffffff;
+}
+
+.navbar-brand:hover {
+  color: #63b6e8;
+}
+
+.nav-link {
+  font-size: 1.5rem;
+  font-family: "Montserrat-Light";
+  color: #ffffff;
+}
+
+.nav-link:hover {
+  color: #63b6e8;
+}
+
+.nav-item {
+  padding: 0 18px;
+}
+
+.navDiv {
+  position: relative;
+}
+
+/* Personalia Section */
+#personalia {
+  padding-top: 1.5%;
+}
+
+/* .personalia-table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+} */
+
+.profilePic {
+  padding-bottom: 3%;
+}
+
+.profile-Text {
+  /* align-content: left; */
+  text-align: left;
+}
+
+.profileMeta {
+  font-family: "Montserrat";
+  font-size: 3rem;
+  padding-right: 2rem;
+}
+
+.profileData {
+  font-family: "Montserrat";
+}
+
+.p-details {
+  font-weight: 450;
+}
+
+.profile-Icon {
+  color: #063758;
+  width: 50px;
+  text-align: center;
+  line-height: 1.2;
+}
+
+.profile-Icon:hover {
+  color: #63b6e8;
+}
+
+@media (max-width: 993px) {
+
+  .profile-Text {
+    text-align: center;
+  }
+
+  .p-details {
+    position:relative;
+    text-align: left;
+    left: 30%;
+  }
+
+}
+
+/*Personal Attributes Section*/
+
+.collapsible {
+  cursor: pointer;
+}
+
+.fa-plus-circle {
+  display: inline-block;
+}
+
+.fa-minus-circle {
+  display: none;
+}
+
+.active .fa-plus-circle {
+  display: none;
+}
+
+.active .fa-minus-circle {
+  display: inline-block;
+}
+
+#personalAtt {
+padding-top: 1.5%;
+background-color: #63b6e8;
+/* padding: 2% 8%; */
+}
+
+#personalAtt .container-fluid {
+  display: none;
+  overflow: hidden;
+}
+
+.feature-box {
+  color: #063758;
+}
+
+.feature-box:hover {
+  color: #ffffff;
+}
+
+#personalAtt .col-lg-4:hover {
+  color: #ffffff;
+}
+
+/* .skill-icon {
+  color: #003d3e;
+}
+
+.skill-icon:hover {
+  color: #00b37c;
+}*/
+.feature-title {
+  font-weight: bold;
+  padding-top: 2%;
+}
+
+/*
+.feature-title:hover {
+  color: #00b37c;
+} */
+
+/* Education Section */
+#education {
+  padding-top: 1.5%;
+  /* padding-bottom: 1%; */
+}
+
+#education .cfl1 {
+  display: none;
+  overflow: hidden;
+}
+
+#education p {
+  font-size: 1.2rem;
+  font-style: italic;
+}
+
+.education-title {
+  text-align: left;
+  display: inline-block;
+  width: 30%;
+  font-weight: bold;
+}
+
+.education-text {
+  text-align: left;
+}
+
+.school {
+  font-size: 1.2rem;
+}
+
+@media (max-width: 993px) {
+
+  #education {
+    text-align: center;
+  }
+
+  .education-text {
+    position: relative;
+    left: 12%;
+    margin-right: 3%;
+  }
+
+}
+
+.education-image {
+  width: 500px ;
+  height: 300px;
+  /* border-radius: 100%; */
+  /* margin: 10px; */
+  /* text-align: center; */
+}
+
+.carousel-heading {
+  font-size: 1.5rem;
+  /* color: #f3f6f8; */
+  -webkit-text-stroke:2px #063758;
+  -webkit-text-fill-color:#ffffff;
+  font-weight: bold;
+
+}
+
+/* .carousel-text {
+  font-size: 1rem;
+  line-height: 1.5;
+  -webkit-text-stroke:1px #003d3e;
+  -webkit-text-fill-color:#ffffff;
+
+} */
+
+.carousel-caption {
+    bottom: 0;
+    top: auto;
+    padding-bottom: 10px;
+}
+
+@media (max-width: 1600px) {
+  .carousel-control-prev {
+      bottom: -120%;
+
+  }
+
+  .carousel-control-next {
+    /* margin-right: -20px; */
+      bottom: -120%;
+      right: -8%;
+  }
+
+  .carousel-heading {
+      position: relative;
+      left: 6%;
+  }
+}
+
+@media (max-width: 1025px) {
+  .carousel-control-prev {
+      bottom: -140%;
+      left: 14%;
+
+  }
+
+  .carousel-control-next {
+    /* margin-right: -20px; */
+      bottom: -140%;
+      right: 5%;
+  }
+
+  .carousel-heading {
+      position: relative;
+      left: 6%;
+  }
+}
+
+@media (max-width: 993px) {
+  .carousel-control-prev {
+      bottom: -10%;
+      left: 4%;
+
+  }
+
+  .carousel-control-next {
+    /* margin-right: -20px; */
+      bottom: -10%;
+      right: 5%;
+  }
+
+  .carousel-heading {
+      position: relative;
+      left: 6%;
+  }
+}
+
+/* Work Experience Section */
+
+#workExp {
+  background-color: #063758;
+  /* padding: 2% 8%; */
+  padding-top: 1.5%;
+  /* padding-bottom: 2%; */
+  color: #ffffff;
+}
+
+#workExp .container-fluid {
+  display: none;
+  overflow: hidden;
+}
+
+#workExp h6 {
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+
+#workExp ul {
+  padding-left: 1.8%;
+  list-style-type: circle;
+  margin-bottom: 0px;
+}
+
+#workExp li {
+  padding-bottom: 1.8%;
+}
+
+.company-logo {
+  max-width: 100%;
+  height: auto;
+  /* width: 100px;
+  height: 70px; */
+  border-radius: 5px;
+  position: relative;
+  top: 2%;
+}
+
+@media (max-width: 993px) {
+
+  .company-logo {
+    padding-bottom: 3%;
+  }
+
+  .experience-period {
+    padding-bottom: 3%;
+  }
+}
+
+.work-item {
+  text-align: left;
+}
+
+@media (max-width: 993px) {
+
+   .company-logo {
+     width: 500px;
+   }
+
+   .work-item {
+     position:relative;
+     text-align: left;
+     left: 12%;
+     margin-right: 10%;
+   }
+}
+
+
+/* Skill Section */
+#skills {
+  /* background-color: #007272; */
+  padding-top: 1.5%;
+  padding-left: 8%;
+  padding-right: 8%;
+  color: #063758;
+}
+
+#skills .container-fluid {
+  display: none;
+  overflow: hidden;
+}
+
+.btn {
+  background-color: #063758;
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.btn:hover {
+  background-color: #63b6e8;
+}
+
+.card {
+  /* color: #a2d7c7; */
+  margin-bottom: 5%;
+}
+
+.card-header {
+  padding: 0;
+}
+
+.card-element {
+  font-size: 1.2rem;
+}
+
+.ability-title {
+  text-align: left;
+  display: inline-block;
+  width: 50%;
+  font-weight: bold;
+  font-size: 1.2rem;
+}
+
+#skills li .fas,#skills li .far {
+  font-size: 0.8rem;
+  /* color: #003d3e; */
+}
+
+#thirdCard li {
+  font-size: 0.8rem;
+}
+
+/* Interests Section */
+#interests {
+  background-color: #63b6e8;
+  padding-top: 1.5%;
+  /* padding-bottom: 1%; */
+}
+
+#interests .container-fluid {
+  display: none;
+  overflow: hidden;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #063758;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.card-text {
+  font-size: 1rem;
+  font-style: italic;
+}
+
+.img-fluid {
+   /* height: 280px;
+   width: 380px; */
+   max-width: 100%;
+   height: 300px;
+}
+
+@media (max-width: 1199px) {
+  #interests {
+    padding-left: 15%;
+    padding-right: 15%;
+  }
+}
+
+.hobby-image {
+  /* width: 100px; */
+ /* height: 280px;
+  width: 380px;  */
+}
+
+/* Sepia */
+.hoverSep img {
+	-webkit-filter: sepia(100%);
+	filter: sepia(100%);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+}
+.hoverSep:hover img {
+	-webkit-filter: sepia(0);
+	filter: sepia(0);
+}
+
+/* .football {
+  background-image: url("Images/football.jpg");
+} */
+
+/* Showoff Section */
+#showoff {
+    padding: 1.5% 8% 0 8%;
+}
+
+.tech-icon {
+  color: #063758;
+  padding: 3%;
+}
+
+.tech-icon:hover {
+  color: #63b6e8;
+}
+
+.showoff-text {
+    font-family: "Montserrat";
+    font-size: 1.5rem;
+    line-height: 1.2rem;
+    color: #063758;
+    font-weight: bold;
+}
+
+/* Contact Section */
+#contact {
+  background-color: #063758;
+}
+
+.contact-icon {
+  padding: 2%;
+  color: #ffffff;
+}
